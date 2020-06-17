@@ -26,14 +26,7 @@ export const StyledP = styled.p`
   font-weight: bold;
 `;
 
-export const StyledH1Trustpilot = styled.h1`
-  margin-top: 20.3rem;
-  margin-bottom: 3.5rem;
-  font-size: 5.2rem;
-  font-weight: bold;
-  text-align: center;
-`;
-
 export const StyledImg = styled.img`
-  margin-bottom: 8.9rem;
+  display: block;
+  width: 100%;
 `;

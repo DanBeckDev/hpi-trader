@@ -1,7 +1,7 @@
 import React from 'react';
-import { MenuItem } from '../../atoms/menuItem';
+import { MenuItem } from './menuItem/';
 import { StyledUl } from './menu.styled';
-import { menuData } from './menuData';
+import { menuData } from './menu.data';
 
 const MenuItems = menuData.map((menu, key) => (
   <MenuItem key={key}>{menu.name}</MenuItem>

@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   StyledH1,
   StyledH2,
@@ -10,6 +11,8 @@ import {
   StyledSection,
   StyledDiv,
 } from './services.styled';
+import data from './services.data';
+
 import { Button } from '../../atoms/button';
 import PhoneImagePath from '../../../../assets/phone.jpg';
 import DeskImagePath from '../../../../assets/desk.jpg';
@@ -19,23 +22,14 @@ export const Services = () => (
   <StyledSection>
     <StyledArticle>
       <header>
-        <StyledH1>About Us</StyledH1>
-        <StyledH2>
-          Founded in 2020. <br />
-          The concept of Car Tree was <br /> born from a real world situation...
-        </StyledH2>
+        <StyledH1>{data.heading}</StyledH1>
+        <StyledH2 dangerouslySetInnerHTML={{ __html: data.subHeading }} />
       </header>
       <article>
-        <StyledP>
-          A family member was stuck in a car finance that they no longer wanted
-          to be in. We couldn't afford to buy a car but needed one. We took over
-          the car finance with 18 months left of payments. We then owned the car
-          outright. They moved out of a financial responsibility and we aquired
-          a car at a discounted cost compared to retail.
-        </StyledP>
+        <StyledP dangerouslySetInnerHTML={{ __html: data.article }} />
       </article>
       <footer>
-        <Button varient="primary">View our services</Button>
+        <Button varient="primary">{data.button}</Button>
       </footer>
     </StyledArticle>
     <aside>

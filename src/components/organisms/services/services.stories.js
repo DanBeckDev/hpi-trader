@@ -2,7 +2,7 @@ import React from 'react';
 import { Services } from './services';
 
 export default {
-  title: 'Services',
+  title: 'Organisms/Services',
   component: Services,
 };
 

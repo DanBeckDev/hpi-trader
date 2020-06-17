@@ -6,13 +6,13 @@
   "dependencies": {
     "@types/styled-components": "^5.1.0",
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.22.3",
+    "gatsby": "^2.23.3",
     "gatsby-plugin-react-svg": "^3.0.0",
-    "gatsby-plugin-styled-components": "^3.3.2",
+    "gatsby-plugin-styled-components": "^3.3.4",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "^5.1.0"
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "dev": "gatsby develop",
@@ -20,12 +20,12 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@storybook/addon-actions": "^5.3.18",
-    "@storybook/addon-backgrounds": "^5.3.18",
-    "@storybook/addon-links": "^5.3.18",
-    "@storybook/addons": "^5.3.18",
-    "@storybook/react": "^5.3.18",
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-backgrounds": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2"
   }

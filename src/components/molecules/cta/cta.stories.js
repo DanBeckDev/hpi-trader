@@ -2,7 +2,7 @@ import React from 'react';
 import { Cta } from './cta';
 
 export default {
-  title: 'Call to action',
+  title: 'Molecules/Call to action',
   component: Cta,
 };
 

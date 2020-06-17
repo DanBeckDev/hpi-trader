@@ -44,6 +44,6 @@ h5 {
 
 p {
   font-size: ${typeScale.paragraph};
-  color: ${defaultTheme.pColor};
+  color: ${defaultTheme.secondaryColor[300]};
 }
 `;

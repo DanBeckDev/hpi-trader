@@ -4,7 +4,7 @@ module.exports = {
     '../src/components/**/**/*.stories.tsx',
   ],
   addons: [
-    '@storybook/addon-actions',
+    '@storybook/addon-actions/register',
     '@storybook/addon-links',
     '@storybook/addon-backgrounds/register',
   ],

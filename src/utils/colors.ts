@@ -1,4 +1,4 @@
-export const primary = {
+export const blue = {
   100: '#82C5FB',
   200: '#2979F5',
   300: 'linear-gradient(270deg, #82C5FB 0%, #2979F5 100%);',

@@ -2,10 +2,8 @@ import React from 'react';
 import { Hero } from './hero';
 
 export default {
-  title: 'Hero',
+  title: 'Molecules/Hero',
   component: Hero,
 };
 
 export const Default = () => <Hero />;
-
-export const Second = () => <Hero />;

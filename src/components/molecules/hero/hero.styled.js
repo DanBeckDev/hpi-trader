@@ -8,7 +8,7 @@ const centerStyle = css`
 
 export const StyledH1 = styled.h1`
   font-size: 6.4rem;
-  color: ${defaultTheme.textColorInverted};
+  color: ${defaultTheme.secondaryColor[100]};
   max-width: 87.8rem;
   margin: 0;
   ${centerStyle}
@@ -21,13 +21,13 @@ export const StyledP = styled.p`
 `;
 
 export const StyledSpan = styled.span`
-  background: ${defaultTheme.spanColor};
+  background: ${defaultTheme.primaryColor[300]};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `;
 
 export const StyledSection = styled.section`
-  margin-top: 20.2rem;
+  padding-top: 20.2rem;
   text-align: center;
 `;
 

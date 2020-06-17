@@ -6,10 +6,10 @@ export const StyledDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: ${defaultTheme.bannerColor};
+  background-image: ${defaultTheme.primaryColor[400]};
 `;
 
 export const StyledP = styled.p`
-  color: ${defaultTheme.textColorInverted};
+  color: ${defaultTheme.secondaryColor[100]};
   font-weight: bold;
 `;

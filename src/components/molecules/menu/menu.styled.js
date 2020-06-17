@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { defaultTheme } from '../../../utils/index';
+import { defaultTheme, typeScale } from '../../../utils/index';
 
 export const StyledUl = styled.ul`
-  color: ${defaultTheme.menuLinkColor};
-  font-size: ${defaultTheme.menuLinkFontSize};
+  color: ${defaultTheme.secondaryColor[300]};
+  font-size: ${typeScale.header2};
   margin: 0;
 `;

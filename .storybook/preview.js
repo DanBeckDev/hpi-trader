@@ -1,8 +1,7 @@
 import { addDecorator, addParameters } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import withTheme from './decorators/app';
-import withBackgroundAddon from './parameters/app';
-
+import { neutral } from '../src/utils';
 // Gatsby's Link overrides:
 // Gatsby Link calls the `enqueue` & `hovering` methods on the global variable ___loader.
 // This global object isn't set in storybook context, requiring you to override it to empty functions (no-op),
@@ -22,6 +21,11 @@ window.___navigate = (pathname) => {
   action('NavigateTo:')(pathname);
 };
 
-addParameters({ ...withBackgroundAddon });
+addParameters({
+  backgrounds: [
+    { name: 'light', value: neutral[100], default: true },
+    { name: 'dark', value: neutral[500] },
+  ],
+});
 
 addDecorator(withTheme);

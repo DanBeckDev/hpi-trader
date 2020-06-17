@@ -7,27 +7,27 @@ const borderStyles = css`
 
 const buttonTypes = {
   primary: css`
-    color: ${defaultTheme.textColorInverted};
-    background-color: ${defaultTheme.buttonPrimaryColor};
+    color: ${defaultTheme.secondaryColor[100]};
+    background-color: ${defaultTheme.secondaryColor[400]};
     ${borderStyles}
     :hover {
-      background-color: ${defaultTheme.primaryHoverColor};
+      background-color: ${defaultTheme.secondaryColor[300]};
     }
   `,
   secondary: css`
-    color: ${defaultTheme.textColor};
-    background-image: ${defaultTheme.secondaryColor};
+    color: ${defaultTheme.secondaryColor[500]};
+    background-image: ${defaultTheme.primaryColor[300]};
     ${borderStyles}
     :hover {
-      background-image: ${defaultTheme.secondaryHoverColor};
+      background-image: ${defaultTheme.primaryColor[400]};
     }
   `,
   tertiary: css`
-    color: ${defaultTheme.textColorInverted};
+    color: ${defaultTheme.secondaryColor[100]};
     background-color: transparent;
-    border: 1px solid ${defaultTheme.tertiaryBorderColor};
+    border: 1px solid ${defaultTheme.secondaryColor[400]};
     :hover {
-      border: 1px solid ${defaultTheme.tertiaryHoverColor};
+      border: 1px solid ${defaultTheme.primaryColor[200]};
     }
   `,
 };

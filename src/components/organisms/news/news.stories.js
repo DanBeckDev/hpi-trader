@@ -2,7 +2,7 @@ import React from 'react';
 import { News } from './news';
 
 export default {
-  title: 'News',
+  title: 'Organisms/News',
   component: News,
 };
 

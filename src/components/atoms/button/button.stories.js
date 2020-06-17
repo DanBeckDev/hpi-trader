@@ -9,18 +9,18 @@ export default {
 
 export const Default = () => (
   <Button varient="primary" onClick={action('clicked')}>
-    Button Text
+    Primary Button
   </Button>
 );
 
 export const Secondary = () => (
   <Button varient="secondary" onClick={action('clicked')}>
-    Button Text
+    Secondary Button
   </Button>
 );
 
 export const Tertiary = () => (
   <Button varient="tertiary" onClick={action('clicked')}>
-    Button Text
+    Tertiary Button
   </Button>
 );

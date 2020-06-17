@@ -5,7 +5,7 @@ export const StyledH1 = styled.h1`
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-  color: ${defaultTheme.textColorInverted};
+  color: ${defaultTheme.secondaryColor[100]};
 `;
 
 export const StyledImg = styled.img`
