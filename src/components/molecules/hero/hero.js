@@ -23,8 +23,18 @@ export const Hero = () => (
       </StyledP>
     </StyledMargins>
     <StyledMargins as="footer">
-      <Button varient={'primary'}>Buy 🚗</Button>
-      <Button varient={'tertiary'}>Sell 🚙</Button>
+      <Button varient={'primary'}>
+        Buy{' '}
+        <span role="img" aria-label="car emoji">
+          🚗
+        </span>
+      </Button>
+      <Button varient={'tertiary'}>
+        Sell{' '}
+        <span role="img" aria-label="car emoji">
+          🚙
+        </span>
+      </Button>
     </StyledMargins>
   </StyledSection>
 );

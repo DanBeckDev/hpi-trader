@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
 import { blue, neutral } from './colors';
-import { ThemeProvider } from 'styled-components';
 
 export const defaultTheme = {
   primaryColor: {
@@ -34,12 +32,4 @@ export const darkTheme = {
     400: neutral[400],
     500: neutral[500],
   },
-};
-
-export const Theme = ({ children }) => {
-  const [theme, setTheme] = useState(0);
-  useEffect(() => {
-    localStorage.setItem('theme', 'default');
-  });
-  <ThemeProvider theme={theme}>{children}</ThemeProvider>;
 };

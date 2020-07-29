@@ -1,6 +1,6 @@
 import React, { useState, createContext } from 'react';
 
-import { defaultTheme, darkTheme } from '../utils';
+import { defaultTheme } from '../utils';
 
 export const ThemeContext = createContext(defaultTheme);
 

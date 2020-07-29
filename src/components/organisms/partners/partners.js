@@ -6,7 +6,7 @@ import {
   StyledHr,
   StyledSection,
 } from './partners.styled';
-import PlaceholderImagePath from '../../../../assets/placeholder.png';
+import PlaceholderImagePath from '../../../static/placeholder.png';
 
 export const Partners = () => (
   <StyledSection>

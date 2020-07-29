@@ -8,7 +8,7 @@ import {
   StyledP,
   StyledImg,
 } from './news.styled';
-import patternImgPath from '../../../../assets/pattern.svg';
+import patternImgPath from '../../../static/pattern.svg';
 
 export const News = () => (
   <>

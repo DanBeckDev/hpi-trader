@@ -7,15 +7,19 @@
     "@types/styled-components": "^5.1.0",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.23.3",
+    "gatsby-plugin-google-analytics": "^2.3.11",
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-styled-components": "^3.3.4",
     "gatsby-plugin-web-font-loader": "^1.0.4",
+    "netlify-lambda": "^1.6.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.1"
   },
   "scripts": {
     "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serverless": "netlify-lambda serve functions",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

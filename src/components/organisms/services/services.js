@@ -14,9 +14,9 @@ import {
 import data from './services.data';
 
 import { Button } from '../../atoms/button';
-import PhoneImagePath from '../../../../assets/phone.jpg';
-import DeskImagePath from '../../../../assets/desk.jpg';
-import LaptopImagePath from '../../../../assets/laptop.jpg';
+import PhoneImagePath from '../../../static/phone.jpg';
+import DeskImagePath from '../../../static/desk.jpg';
+import LaptopImagePath from '../../../static/laptop.jpg';
 
 export const Services = () => (
   <StyledSection>

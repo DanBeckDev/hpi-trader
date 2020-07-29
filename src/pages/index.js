@@ -1,10 +1,13 @@
 import React from 'react';
-import '../global.css';
-import Form from '../components/test/form';
+import { Home } from '../components/templates/home';
+import { ThemeProvider } from 'styled-components';
+import { defaultTheme, GlobalStyle } from '../utils';
 
 export default () => (
   <>
-    <h1>Send a message</h1>
-    <Form />
+    <ThemeProvider theme={defaultTheme}>
+      <Home />
+    </ThemeProvider>
+    <GlobalStyle />
   </>
 );

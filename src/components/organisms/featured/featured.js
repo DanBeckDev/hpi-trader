@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Hero } from '../../molecules/hero';
 
-import CarImageLink from '../../../../assets/car.jpg';
+import CarImageLink from '../../../static/car.jpg';
 
 import { StyledImg, StyledDiv } from './featured.styled';
 

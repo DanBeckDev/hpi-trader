@@ -1,5 +1,5 @@
 import React from 'react';
-import profileSvgPath from '../../../../assets/profile.svg';
+import profileSvgPath from '../../../static/profile.svg';
 import {
   StyledSection,
   StyledH2,
@@ -20,13 +20,13 @@ export const Blogcta = () => (
     </article>
     <StyledFooter>
       <StyledDiv>
-        <img src={profileSvgPath} />
+        <img alt="profle" src={profileSvgPath} />
         <Styledp>
           <b>Joe Bloggs</b>
         </Styledp>
         <Styledp>15/05/2020</Styledp>
       </StyledDiv>
-      <StyledButton>-></StyledButton>
+      <StyledButton>-&gt;</StyledButton>
     </StyledFooter>
   </StyledSection>
 );

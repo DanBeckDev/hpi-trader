@@ -2,7 +2,7 @@ import React from 'react';
 
 import { StyledH1Trustpilot, StyledImg, StyledArticle } from './reviews.styled';
 
-import trustpilotImgPath from '../../../../assets/trustpilot.png';
+import trustpilotImgPath from '../../../static/trustpilot.png';
 
 export const Reviews = () => (
   <section>
@@ -10,7 +10,7 @@ export const Reviews = () => (
       <StyledH1Trustpilot>What people are saying about us</StyledH1Trustpilot>
     </header>
     <StyledArticle>
-      <StyledImg src={trustpilotImgPath} />
+      <StyledImg src={trustpilotImgPath} alt="trustpilot" />
     </StyledArticle>
   </section>
 );

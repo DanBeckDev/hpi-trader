@@ -1,6 +1,8 @@
 [build]
-    functions = "functions"
+command = "yarn build"
+functions = "functions-build"
+
 [[redirects]]
-    from = "/api/*"
-    to = "/.netlify/functions/:splat"
-    status = 200
+from = "/*"
+status = 301
+to = "/api/:splat"
