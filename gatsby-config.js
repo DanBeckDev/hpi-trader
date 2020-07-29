@@ -1,11 +1,14 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-52879048-2',
-        head: true,
+        trackingId: process.env.GA_TRACKING_ID,
       },
     },
     {
