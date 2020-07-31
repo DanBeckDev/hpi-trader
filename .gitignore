@@ -94,5 +94,8 @@ public/
 # Images
 .DS_Store
 
+# .env
+.env
+.env.production
 
 # End of https://www.toptal.com/developers/gitignore/api/node,images

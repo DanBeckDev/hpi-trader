@@ -8,6 +8,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "dotenv": "^8.2.0",
     "gatsby": "^2.23.3",
+    "gatsby-cli": "^2.12.68",
     "gatsby-plugin-google-analytics": "^2.3.11",
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-styled-components": "^3.3.4",
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "build": "gatsby build",
+    "build": "NODE_ENV=production && gatsby build",
     "serverless": "netlify-lambda serve functions",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
