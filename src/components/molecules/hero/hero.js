@@ -23,12 +23,14 @@ export const Hero = () => (
       </StyledP>
     </StyledMargins>
     <StyledMargins as="footer">
-      <Button varient={'primary'}>
-        Buy{' '}
-        <span role="img" aria-label="car emoji">
-          🚗
-        </span>
-      </Button>
+      <a href="/buy">
+        <Button varient={'primary'}>
+          Buy{' '}
+          <span role="img" aria-label="car emoji">
+            🚗
+          </span>
+        </Button>
+      </a>
       <Button varient={'tertiary'}>
         Sell{' '}
         <span role="img" aria-label="car emoji">
